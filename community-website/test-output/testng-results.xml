@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Practice Suite" duration-ms="41374" started-at="2021-10-17T18:42:59Z" finished-at="2021-10-17T18:43:40Z">
+    <groups>
+    </groups>
+    <test name="Test Basics 1" duration-ms="41374" started-at="2021-10-17T18:42:59Z" finished-at="2021-10-17T18:43:40Z">
+      <class name="WebsiteTest.VerifyCommunitySite">
+        <test-method status="PASS" signature="verifysite(java.lang.String, java.lang.String)[pri:0, instance:WebsiteTest.VerifyCommunitySite@17c68925]" name="verifysite" duration-ms="29722" started-at="2021-10-18T00:12:59Z" data-provider="data-provider" finished-at="2021-10-18T00:13:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.marathishaadi.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Marathi]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifysite -->
+        <test-method status="PASS" signature="verifysite(java.lang.String, java.lang.String)[pri:0, instance:WebsiteTest.VerifyCommunitySite@17c68925]" name="verifysite" duration-ms="11540" started-at="2021-10-18T00:13:28Z" data-provider="data-provider" finished-at="2021-10-18T00:13:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.gujaratishaadi.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Gujarati]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifysite -->
+      </class> <!-- WebsiteTest.VerifyCommunitySite -->
+    </test> <!-- Test Basics 1 -->
+  </suite> <!-- Practice Suite -->
+</testng-results>
